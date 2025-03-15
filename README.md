@@ -27,9 +27,11 @@ A Discord bot that monitors system performance on **Linux systems**. It collects
 ## 📦 Installation  
 
 ### 1️⃣  Clone the Repository  
-```sh
-git clone https://github.com/2KU77B0N3S/discord-linux-monitoring.git
-cd discord-linux-monitoring```
+```sh```
+
+```git clone https://github.com/2KU77B0N3S/discord-linux-monitoring.git```
+
+```cd discord-linux-monitoring```
 
 ### 2️⃣  Install Dependencies
 ```npm install```
@@ -37,14 +39,17 @@ cd discord-linux-monitoring```
 ### 3️⃣  Configure Environment Variables
 Create a .env file in the root directory and add your credentials:
 
-```DISCORD_TOKEN=your-bot-token
-DISCORD_CHANNEL_ID=your-channel-id```
+```DISCORD_TOKEN=your-bot-token```
+
+```DISCORD_CHANNEL_ID=your-channel-id```
 
 ### ▶ Running the Bot
 🔧 Start Manually (Node.js)
 ```node main.mjs```
+
 🐳 Start with Docker (Build & Run in Docker)
 ```docker-compose up --build -d```
+
 Stop the Bot:
 ```docker-compose down```
 
