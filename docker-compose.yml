@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  discord-bot:
+    container_name: discord-system-monitor
+    build: .
+    restart: unless-stopped
+    env_file:
+      - .env
+    command: ["node", "main.mjs"]
