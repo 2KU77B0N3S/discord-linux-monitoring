@@ -13,6 +13,8 @@ A Discord bot that monitors system performance on **Linux systems**. It collects
 
 ⚠ **This bot is designed exclusively for Linux systems**. It will not function on Windows or macOS.
 
+![Example](picture.png)
+
 ---
 
 ## 🛠 Requirements  
